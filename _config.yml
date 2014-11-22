@@ -23,9 +23,9 @@
 # url : https://thedereck.github.io
 # email : thedereck@thedereck.com
 # author : Dereck Curry
-name : gh-pages-blog
-brand : gh-pages-blog
-description : The Official gh-pages-blog GitHub Page
+name : Melinda Higgins, Ph.D. Blog
+brand : Melinda Higgins, Ph.D. Blog
+description : Melinda Higgins, Ph.D. Blog
 url : http://melindahiggins2000.github.io/blog/
 email : melinda.higgins@emory.edu
 author: Melinda Higgins, Ph.D Biostatistician and Chemometrician
@@ -338,7 +338,7 @@ github_projects :
   projects :
   - project :
     name : gh-pages-blog
-    url : http://melindahiggins2000.github.io/blog/
+    url : https://github.com/thedereck/gh-pages-blog
 
 
 # These are links to other websites outside of the blog that are not part of
