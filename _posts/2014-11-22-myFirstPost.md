@@ -1,5 +1,10 @@
 ---
-layout: post
+layout : post
+title : Melinda's First Post
+subtitle : place for subtitle 
+category : Melinda
+tags :
+  - Melinda
 ---
 
 # My First Post
