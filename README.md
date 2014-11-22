@@ -1,112 +1,55 @@
-# Jekyll Now
+# gh-pages-blog #
+=============
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+The simple way to use GitHub Pages as your account or project blog and website.
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependancies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+## About ##
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+gh-pages-blog is built upon the existing GitHub:Pages technologies, adding responsive Bootstrap, Font Awesome, JQuery, Disqus, Google Analytics, and some custom javascript to the mix to provide a fairly complete blogging solution.
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+For more information, visit the GitHub Page for the gh-pages-blog project. [https://thedereck.github.io/gh-pages-blog/](https://thedereck.github.io/gh-pages-blog/)
 
-## Quick Start
 
-### Step 1) Fork Jekyll Now to your User Repository
+## Credit ##
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+There are definitely a few projects that I need to give credit to:
 
-Your Jekyll blog will often be viewable immediately at <http://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+[GitHub:Pages](http://pages.github.com) by GitHub
 
-![Step 1](/images/step1.gif "Step 1")
+[Bootstrap](http://twitter.github.com/bootstrap/) by Twitter
 
-### Step 2) Customize and view your site
+[jQuery](http://jquery.com/) by jQuery Foundation
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+[Font Awesome 3.0](http://fortawesome.github.com/Font-Awesome/) by Dave Gandy
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <http://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+[syntax.css](https://github.com/mojombo/jekyll) by Tom Preston-Werner 
 
-> There are 3 different ways that you can make changes to your blog's files:
+Without the above projects, gh-pages-blog probably wouldn't exist. Thanks to everyone working on those projects for all of their hard work and for releasing the code so that the rest of us can focus on other aspects of our sotware.
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+## License ##
 
-![_config.yml](/images/config.png "_config.yml")
-  
-### Step 3) Publish your first blog post
+Except where noted below and elsewhere in the code and repository, the gh-pages-blog code is &copy; Copyright 2013 by Dereck Curry and is licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+   
+You may obtain a copy of the License at
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
-![First Post](/images/first-post.png "First Post")
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
 
-## Local Development
+[Bootstrap](http://twitter.github.com/bootstrap/) - &copy; Copyright 2012, Twitter, Inc.
+* Bootstrap code is licensed under Apache License v2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+* Bootstrap documentation is licensed under CC BY 3.0 - [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
+* Glyphicons Free licensed under CC BY 3.0 - [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, Gemoji, etc.
-2. Clone down your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://0.0.0.0:4000
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+[jQuery](http://jquery.com/) - &copy; Copyright 2013 jQuery Foundation and other contributors
+* jQuery is licensed under MIT License - [https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt).
 
-## Moar!
+[Font Awesome](http://fortawesome.github.com/Font-Awesome/)
+* The Font Awesome font is licensed under the SIL Open Font License - [http://scripts.sil.org/OFL](http://scripts.sil.org/OFL).
+* Font Awesome CSS, LESS, and SASS files are licensed under the MIT License - [http://opensource.org/licenses/mit-license.html](http://opensource.org/licenses/mit-license.html).
+* The Font Awesome pictograms are licensed under the CC BY 3.0 License - [http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
-
-It covers:
-
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
-
-## Jekyll Now Features
-
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
-✓ Emoji in blog posts! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
-
-✘ No installing dependancies  
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
-
-## Questions?
-
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
-
-## Other forkable themes
-
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
-
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
-
-## Credits
-
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful. 
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
-
+[syntax.css](https://github.com/mojombo/jekyll) by Tom Preston-Werner 
+* The syntax.css is licensed under the MIT License - [http://opensource.org/licenses/mit-license.html](http://opensource.org/licenses/mit-license.html).
