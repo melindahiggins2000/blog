@@ -1,9 +1,9 @@
 ---
 layout : post
 title : Future posts on Reproducible Research
-category : ReproducibleResearch
+category : RepRes
 tags :
-  - ReproducibleResearch
+  - RepRes
 ---
 
 Future blog posts will be added on reproducible research.
