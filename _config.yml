@@ -279,20 +279,20 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : https://www.twitter.com/dereckcurry
 social_links :
-  follow_name : Dereck Curry For Updates About gh-pages-blog
+  follow_name : Melinda Higgins
   links :
     - link :
       enabled : true
       name : GitHub
       font_awesome_icon : icon-github-alt
-      url : https://github.com/TheDereck
+      url : https://github.com/melindahiggins2000
     - link :
       enabled : true
-      name: Google+
-      font_awesome_icon : icon-google-plus
-      url : https://plus.google.com/109660251296662910676?rel=author
+      name: Facebook
+      font_awesome_icon : icon-facebook
+      url : https://www.facebook.com/melinda.higgins.5
     - link :
-      enabled : true
+      enabled : false
       name : Linkedin
       font_awesome_icon : icon-linkedin
       url : http://www.linkedin.com/in/dereckcurry
@@ -300,8 +300,20 @@ social_links :
       enabled : true
       name : Twitter
       font_awesome_icon : icon-twitter
-      url : https://www.twitter.com/DereckCurry
+      url : https://www.twitter.com/mhiggins2000
 
+
+#older code
+#    - link :
+#      enabled : true
+#      name: Google+
+#      font_awesome_icon : icon-google-plus
+#      url : https://plus.google.com/109660251296662910676?rel=author
+#    - link :
+#      enabled : true
+#      name : Linkedin
+#      font_awesome_icon : icon-linkedin
+#      url : http://www.linkedin.com/in/dereckcurry
 
 # These are a list of GitHub projects that the blog owner would like to
 # showcase. Although the intent is the projects showcased would be the
