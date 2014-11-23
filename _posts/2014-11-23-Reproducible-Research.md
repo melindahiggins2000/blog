@@ -1,9 +1,9 @@
 ---
 layout : post
 title : Test Post Reproducible Research
-category : RR
+category : Rep Research
 tags :
-  - RR
+  - Rep Research
 ---
 
 test post for Reproducible Research
