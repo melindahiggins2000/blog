@@ -365,11 +365,11 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Great gh-pages-blog Sites!
+  header : Home Site!
   links :
     - link :
-      name : The Dereck
-      url: https://thedereck.github.io
+      name : Melinda Higgins
+      url: http://melindahiggins2000.github.io/
 
 
 # These are the Bootstrap settings. These Bootstrap settings will control both
