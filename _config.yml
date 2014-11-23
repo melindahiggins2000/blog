@@ -336,11 +336,11 @@ social_links :
 #     name : gh-pages-blog
 #     url : https://github.com/thedereck/gh-pages-blog
 github_projects :
-  header : Fork Me!
+  header : Fork My Guthub Blog
   projects :
   - project :
     name : gh-pages-blog
-    url : https://github.com/thedereck/gh-pages-blog
+    url : https://github.com/melindahiggins2000/blog
 
 
 # These are links to other websites outside of the blog that are not part of
