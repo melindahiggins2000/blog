@@ -1,9 +1,9 @@
 ---
 layout : post
 title : Future posts on Reproducible Research
-category : Repres
+category : Melinda
 tags :
-  - Repres
+  - Melinda
 ---
 
 Future blog posts will be added on reproducible research.
