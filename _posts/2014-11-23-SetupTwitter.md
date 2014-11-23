@@ -9,4 +9,4 @@ tags :
 
 # Just setup Twitter
 
-I just setup my Twitter account. Find me at [@mhiggins2000] (https://twitter.com/mhiggins2000/).
+I just setup my Twitter account. Find me at [twitter] (https://twitter.com/mhiggins2000/).
