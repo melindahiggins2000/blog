@@ -4,6 +4,8 @@ title : User Manual
 subtitle : Obviously a work in progress
 order : 1
 ---
+## Based on gh-pages-blog
+see [User Manual at gh-pages-blog](https://thedereck.github.io/gh-pages-blog/user-manual.html)
 
 * [Getting Started]({{ site.url }}/user-manual/getting-started.html)
 * Posts
