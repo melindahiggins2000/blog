@@ -1,10 +1,14 @@
 ---
 layout : post
-title : My website launched
+title : Test R Markdown file - converted
 category : R
 tags :
   - R
 ---
+
+## based on KnitPost
+
+<p> see <a href="http://jfisher-usgs.github.io/r/2012/07/03/knitr-jekyll/"> http://jfisher-usgs.github.io/r/2012/07/03/knitr-jekyll/ </a></p>
 
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
