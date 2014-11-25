@@ -94,7 +94,7 @@ par(mar = c(2.5, 2.5, 0.5, 0.1), omi = c(0, 0, 0, 0))
 filled.contour(volcano)
 {% endhighlight %}
 
-![center](fig2-1.png) 
+![center]({{ site.url }}/figs/2012-07-03-knitr-jekyll/fig2-1.png) 
 ##### Figure 2: Caption
 
 And dont forget your session information for proper reproducible research.
