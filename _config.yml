@@ -31,6 +31,12 @@ email : melinda.higgins@emory.edu
 author: Melinda Higgins, Ph.D. Biostatistician and Chemometrician
 
 baseurl : https://melindahiggins2000.github.io/blog/
+production_url : https://melindahiggins2000.github.io/blog/
+
+
+JB :
+  version : 0.3.0
+
 
 # The following is a list of files to exclude from inclusion in the
 # generated gh-pages website.

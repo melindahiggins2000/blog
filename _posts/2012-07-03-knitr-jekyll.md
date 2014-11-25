@@ -83,7 +83,7 @@ par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 {% endhighlight %}
 
-![fig 1](/figs/2012-07-03-knitr-jekyll/fig1-1.png)
+![center](/figs/2012-07-03-knitr-jekyll/fig1-1.png)
 
 ##### Figure 1: Caption
 
