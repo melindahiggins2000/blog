@@ -6,6 +6,8 @@ tags :
   - R
 ---
 
+{% include JB/setup %}
+
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
 blog post. The only required input is an **R Markdown** source file. 
