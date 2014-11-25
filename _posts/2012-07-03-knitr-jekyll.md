@@ -6,8 +6,6 @@ tags :
   - R
 ---
 
-{% include JB/setup %}
-
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
 blog post. The only required input is an **R Markdown** source file. 
@@ -85,7 +83,7 @@ par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 {% endhighlight %}
 
-![center](/figs/2012-07-03-knitr-jekyll/fig1-1.png)
+![center](fig1-1.png)
 
 ##### Figure 1: Caption
 
@@ -95,7 +93,7 @@ par(mar = c(2.5, 2.5, 0.5, 0.1), omi = c(0, 0, 0, 0))
 filled.contour(volcano)
 {% endhighlight %}
 
-![center](/figs/2012-07-03-knitr-jekyll/fig2-1.png) 
+![center](fig2-1.png) 
 ##### Figure 2: Caption
 
 And dont forget your session information for proper reproducible research.
