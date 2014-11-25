@@ -294,7 +294,7 @@ social_links :
       font_awesome_icon : icon-github-alt
       url : https://github.com/melindahiggins2000
     - link :
-      enabled : true
+      enabled : false
       name: Facebook
       font_awesome_icon : icon-facebook
       url : https://www.facebook.com/melinda.higgins.5
