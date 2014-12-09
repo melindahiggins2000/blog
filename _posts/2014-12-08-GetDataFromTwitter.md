@@ -10,7 +10,7 @@ tags :
 
 In order to submit data requests to Twitter, you need a developer account. Go to Twitter Developers <https://dev.twitter.com/>, aka. Fabric.
 
-{{ site.url }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png 
+![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png)
 
 * Click "More"" and "Get Started with Fabric"
 * Fill out your name and email to request an account
