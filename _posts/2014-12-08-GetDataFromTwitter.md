@@ -1,8 +1,8 @@
 ---
-layout: post
-title: "Using R to Datamine Twitter - Intro"
-category: R
-tags:
+layout : post
+title : Using R to Datamine Twitter - Intro
+category:  R
+tags :
   - R
 ---
 
@@ -175,6 +175,11 @@ Here is what the cleaned up text now looks like for the 1st tweet extracted abov
 
 {% highlight r %}
 tweets.text.corpus[1]$content
+
+[[1]]
+<<PlainTextDocument (metadata: 7)>>
+nursing job  fulleon ca patient care tech oncology ft nights 12hr  st josephs health
+
 {% endhighlight %}
 
 Finally, generate the wordcloud for all of the extracted content from these 1499 tweets.
