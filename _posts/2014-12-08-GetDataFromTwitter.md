@@ -190,7 +190,7 @@ Finally, generate the wordcloud for all of the extracted content from these 1499
 wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
 {% endhighlight %}
 
-{{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing.png 
+![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing.png)
 
 ***
 
