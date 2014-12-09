@@ -10,7 +10,7 @@ tags :
 
 In order to submit data requests to Twitter, you need a developer account. Go to Twitter Developers <https://dev.twitter.com/>, aka. Fabric.
 
-![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png) 
+{{ site.url }}/figs/2014-12-08-GetDataFromTwitter/fabric1.png 
 
 * Click "More"" and "Get Started with Fabric"
 * Fill out your name and email to request an account
@@ -129,7 +129,7 @@ Here are some of the tweets extracted using `head(tweets)` to pull the first few
 [1] "ILnursejobs: #nursing #jobs STAFF NURSE I at Provena Saint Joseph Medical Center (Evanston, IL): STAFF NURSE I Facility Pre...  http://t.co/ngP4ykfbFZ"
 
 [[6]]
-[1] "dreytoledo: God is so GOOD! í ½í¸,í ½í²Tí ½í²sí ½í²< #life #financial #problems #nursing http://t.co/1OS0EV2MeA"
+[1] "dreytoledo: God is so GOOD! Ã­ Â½Ã­Â¸,Ã­ Â½Ã­Â²TÃ­ Â½Ã­Â²sÃ­ Â½Ã­Â²< #life #financial #problems #nursing http://t.co/1OS0EV2MeA"
 {% endhighlight %}
 
 The next set of commands will parse through these tweets and extract the key words we will use in the final wordcloud.
@@ -190,7 +190,7 @@ Finally, generate the wordcloud for all of the extracted content from these 1499
 wordcloud(tweets.text.corpus,min.freq = 2, scale=c(7,0.5),colors=brewer.pal(8, "Dark2"),  random.color= TRUE, random.order = FALSE, max.words = 150)
 {% endhighlight %}
 
-![center]({{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing.png) 
+{{ site.url }}/figs/2014-12-08-GetDataFromTwitter/wordcloud_nursing.png 
 
 ***
 
